@@ -1,0 +1,31 @@
+/* productos.css */
+
+/* Estilos específicos de la página de productos */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas iguales */
+    grid-gap: 20px; /* Espacio entre las imágenes */
+  }
+  
+  .producto {
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 100%;
+    max-width: 200px; /* Tamaño máximo de las imágenes */
+    height: auto;
+  }
+  
+  .producto h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .producto p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+  }
+  
