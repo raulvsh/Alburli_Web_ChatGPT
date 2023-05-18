@@ -1,6 +1,15 @@
 /* productos.css */
 
 /* Estilos específicos de la página de productos */
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
 
 .grid-container {
     display: grid;
@@ -14,7 +23,7 @@
   
   .producto img {
     width: 100%;
-    max-width: 200px; /* Tamaño máximo de las imágenes */
+    max-width: 150px; /* Tamaño máximo de las imágenes */
     height: auto;
   }
   
@@ -28,4 +37,18 @@
     font-size: 14px;
     color: #888;
   }
+
+  .container {
+    flex: 1;
+  }
+  
+  /* Resto de los estilos para el grid y los productos */
+  
+  /*footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    flex-shrink: 0;
+  }*/
   
