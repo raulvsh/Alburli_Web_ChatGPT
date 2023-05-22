@@ -72,6 +72,7 @@ body {
   .submenu li {
     display: block;
     margin-bottom: 5px; /* Agrega un margen inferior entre los elementos del submenú */
+    padding: 20px;
   }
   
   /*nav ul li:nth-child(even) a {

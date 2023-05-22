@@ -41,14 +41,3 @@ html, body {
   .container {
     flex: 1;
   }
-  
-  /* Resto de los estilos para el grid y los productos */
-  
-  /*footer {
-    background-color: #333;
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    flex-shrink: 0;
-  }*/
-  
